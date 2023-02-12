@@ -3,8 +3,8 @@
 ### 필요 라이브러리
 
 **Lint**
-- [ ] ESLint
-- [ ] Prettier
+- [x] ESLint
+- [x] Prettier
 
 **Core**
 
@@ -12,6 +12,7 @@
 - [ ] @tanstack/react-query
 - [ ] react-router
 - [ ] styled-components
+- [ ] axios
 
 **util**
 - [ ] lodash-es
@@ -20,6 +21,6 @@
 
 ### 필요 세팅
 
-- [ ] eslint
-- [ ] prettier
-- [ ] tsconfig.json
+- [x] eslint
+- [x] prettier
+- [x] tsconfig.json
