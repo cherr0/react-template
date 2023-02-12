@@ -8,19 +8,26 @@
 
 **Core**
 
-- [ ] redux
-- [ ] @tanstack/react-query
-- [ ] react-router
-- [ ] styled-components
-- [ ] axios
+- [x] recoil
+- [x] @tanstack/react-query
+- [x] react-router
+- [x] styled-components
+- [x] axios
 
-**util**
-- [ ] lodash-es
+**Util**
+- [x] lodash-es
 - [ ] dayjs (선택)
 
 
 ### 필요 세팅
 
+**Lint**
 - [x] eslint
 - [x] prettier
 - [x] tsconfig.json
+
+**Core**
+- [ ] router
+- [ ] directory
+- [ ] layout
+- [ ] style
