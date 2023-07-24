@@ -5,6 +5,7 @@ import { RouterProvider } from 'react-router-dom'
 import { RecoilRoot } from 'recoil'
 
 import router from '@/lib/router'
+import GlobalStyle from '@/styles/global-style'
 
 const App = () => {
   const queryClient = new QueryClient({
@@ -19,6 +20,7 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <RecoilRoot>
+        <GlobalStyle />
         <RouterProvider router={router} />
       </RecoilRoot>
     </QueryClientProvider>
