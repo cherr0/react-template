@@ -1,6 +1,7 @@
 import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 
+import About from '@/pages/about'
 import Home from '@/pages/home'
 
 export default createBrowserRouter([
@@ -10,6 +11,6 @@ export default createBrowserRouter([
   },
   {
     path: 'about',
-    element: <div>About</div>,
+    element: <About />,
   },
 ])
